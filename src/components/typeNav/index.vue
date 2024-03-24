@@ -3,76 +3,73 @@
     <div class="container">
       <!-- 事件的委派 -->
       <div @mouseleave="leaveHandler" @click="goSearch">
-        <h2 class="all" @mouseenter="changeShow">全部商品分类</h2>
+        <h2 class="all" @mouseenter="changeShow">全部商品</h2>
         <!--商品分类的地方:虽然刚开始的时候商品分类结构在底部,调整到当前位置，但是页面结构没有太大的变化,因为老师们已经把样式搞定了-->
-        <transition name="sort">
-          <div class="sort" v-show="show">
-            <div class="all-sort-list2">
-              <!--一级分类地盘-->
-              <div
-                class="item"
-                v-for="(c1, index) in category"
-                :key="c1.categoryId"
-              >
-                <h3
-                  @mouseenter="enterHandler(index)"
-                  :class="{ active: currentIndex == index }"
-                >
-                  <a
-                    :data-categoryName="c1.categoryName"
-                    :data-category1Id="c1.categoryId"
-                    >{{ c1.categoryName }}</a
-                  >
-                </h3>
-                <!-- 通过JS实现动态行内样式，进行二级、三级分类的显示与隐藏(display:none|block切换的) -->
-                <div
-                  class="item-list clearfix"
-                  :style="{ display: currentIndex == index ? 'block' : 'none' }"
-                >
-                  <!--二级分类-->
-                  <div
-                    class="subitem"
-                    v-for="(c2, index) in c1.categoryChild"
-                    :key="c2.categoryId"
-                  >
-                    <dl class="fore">
-                      <dt>
-                        <a
-                          :data-categoryName="c2.categoryName"
-                          :data-category2Id="c2.categoryId"
-                          >{{ c2.categoryName }}</a
-                        >
-                      </dt>
-                      <dd>
-                        <!--三级分类-->
-                        <em
-                          v-for="(c3, index) in c2.categoryChild"
-                          :key="c3.categoryId"
-                        >
-                          <a
-                            :data-categoryName="c3.categoryName"
-                            :data-category3Id="c3.categoryId"
-                            >{{ c3.categoryName }}</a
-                          >
-                        </em>
-                      </dd>
-                    </dl>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </transition>
+<!--        <transition name="sort">-->
+<!--          <div class="sort" v-show="show">-->
+<!--            <div class="all-sort-list2">-->
+<!--              &lt;!&ndash;一级分类地盘&ndash;&gt;-->
+<!--              <div-->
+<!--                class="item"-->
+<!--                v-for="(c1, index) in category"-->
+<!--                :key="c1.categoryId"-->
+<!--              >-->
+<!--                <h3-->
+<!--                  @mouseenter="enterHandler(index)"-->
+<!--                  :class="{ active: currentIndex == index }"-->
+<!--                >-->
+<!--                  <a-->
+<!--                    :data-categoryName="c1.categoryName"-->
+<!--                    :data-category1Id="c1.categoryId"-->
+<!--                    >{{ c1.categoryName }}</a-->
+<!--                  >-->
+<!--                </h3>-->
+<!--                &lt;!&ndash; 通过JS实现动态行内样式，进行二级、三级分类的显示与隐藏(display:none|block切换的) &ndash;&gt;-->
+<!--                <div-->
+<!--                  class="item-list clearfix"-->
+<!--                  :style="{ display: currentIndex == index ? 'block' : 'none' }"-->
+<!--                >-->
+<!--                  &lt;!&ndash;二级分类&ndash;&gt;-->
+<!--                  <div-->
+<!--                    class="subitem"-->
+<!--                    v-for="(c2, index) in c1.categoryChild"-->
+<!--                    :key="c2.categoryId"-->
+<!--                  >-->
+<!--                    <dl class="fore">-->
+<!--                      <dt>-->
+<!--                        <a-->
+<!--                          :data-categoryName="c2.categoryName"-->
+<!--                          :data-category2Id="c2.categoryId"-->
+<!--                          >{{ c2.categoryName }}</a-->
+<!--                        >-->
+<!--                      </dt>-->
+<!--                      <dd>-->
+<!--                        &lt;!&ndash;三级分类&ndash;&gt;-->
+<!--                        <em-->
+<!--                          v-for="(c3, index) in c2.categoryChild"-->
+<!--                          :key="c3.categoryId"-->
+<!--                        >-->
+<!--                          <a-->
+<!--                            :data-categoryName="c3.categoryName"-->
+<!--                            :data-category3Id="c3.categoryId"-->
+<!--                            >{{ c3.categoryName }}</a-->
+<!--                          >-->
+<!--                        </em>-->
+<!--                      </dd>-->
+<!--                    </dl>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </transition>-->
       </div>
       <nav class="nav">
-        <a href="###">服装城</a>
-        <a href="###">美妆馆</a>
-        <a href="###">尚品汇超市</a>
-        <a href="###">全球购</a>
-        <a href="###">闪购</a>
-        <a href="###">团购</a>
-        <a href="###">有趣</a>
-        <a href="###">秒杀</a>
+        <a href="###">春季新款</a>
+        <a href="###">连体衣专柜</a>
+        <a href="###">套装专区</a>
+        <a href="###">外出服专区</a>
+        <a href="###">按季选择</a>
       </nav>
     </div>
   </div>

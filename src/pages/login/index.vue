@@ -77,8 +77,8 @@
         <li>销售联盟</li>
         <li>尚品汇社区</li>
       </ul>
-      <div class="address">地址：北京市昌平区宏福科技园综合楼6层</div>
-      <div class="beian">京ICP备19006430号</div>
+      <div class="address">地址：unkown</div>
+      <div class="beian">unkown</div>
     </div>
   </div>
 </template>
@@ -124,7 +124,7 @@ export default {
       width: 1200px;
       height: 487px;
       margin: 0 auto;
-      background: url(./images/loginbg.png) no-repeat;
+      //background: url(./images/loginbg.png) no-repeat;
     }
 
     .loginform {

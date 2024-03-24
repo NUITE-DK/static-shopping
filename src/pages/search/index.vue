@@ -40,10 +40,10 @@
 
         <!--selector:子组件-->
         <!-- 绑定自定义事件:实现儿子给父组件传递数据 -->
-        <SearchSelector
-          @getTradeMark="getTradeMark"
-          @getAttrAndAttrValue="getAttrAndAttrValue"
-        />
+<!--        <SearchSelector-->
+<!--          @getTradeMark="getTradeMark"-->
+<!--          @getAttrAndAttrValue="getAttrAndAttrValue"-->
+<!--        />-->
 
         <!--details-->
         <div class="details clearfix">

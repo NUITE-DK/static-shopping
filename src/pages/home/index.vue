@@ -17,8 +17,8 @@
        仓库floorList:不是空数组,代表服务器数据回来了。v-for渲染子组件完毕。给组件的props,就是两个对象
     
     -->
-    <Floor v-for="(floor,index) in floorList" :key="floor.id" :floor="floor"></Floor>
-    <Brand></Brand>
+<!--    <Floor v-for="(floor,index) in floorList" :key="floor.id" :floor="floor"></Floor>-->
+<!--    <Brand></Brand>-->
   </div>
 </template>
 

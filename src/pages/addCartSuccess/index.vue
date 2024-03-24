@@ -37,7 +37,7 @@
 <style lang="less" scoped>
   .cart-complete-wrap {
     background-color: #f4f4f4;
-
+    margin-bottom: 20px;
     .cart-complete {
       width: 1200px;
       margin: 0 auto;

@@ -28,65 +28,61 @@
           <div class="img-item">
             <p class="tab-pic">
               <a href="#">
-                <img src="./images/1.jpg" />
+                <img src="./images/17.jpg" />
               </a>
             </p>
             <div class="tab-info">
               <div class="info-title">
                 <a href="#"
-                  >【官网价直降1100】Apple iPhone 8 Plus 256GB 银色
-                  移动联通电信4G手机</a
+                  >婴儿帽子卡通造型新生儿宝宝防风帽春秋款外出护耳帽可爱</a
                 >
               </div>
-              <p class="info-price">定金：¥100.00</p>
+              <p class="info-price">定金：¥49.00</p>
             </div>
           </div>
           <div class="img-item">
             <p class="tab-pic">
               <a href="#">
-                <img src="./images/1.jpg" />
+                <img src="./images/18.jpg" />
               </a>
             </p>
             <div class="tab-info">
               <div class="info-title">
                 <a href="#"
-                  >【官网价直降1100】Apple iPhone 8 Plus 256GB 银色
-                  移动联通电信4G手机</a
+                  >婴儿袜子春秋宝宝长筒袜无后跟高筒袜t透气可爱不勒儿童过膝袜</a
                 >
               </div>
-              <p class="info-price">定金：¥100.00</p>
+              <p class="info-price">定金：¥19.00</p>
             </div>
           </div>
           <div class="img-item">
             <p class="tab-pic">
               <a href="#">
-                <img src="./images/1.jpg" />
+                <img src="./images/19.jpg" />
               </a>
             </p>
             <div class="tab-info">
               <div class="info-title">
                 <a href="#"
-                  >【官网价直降1100】Apple iPhone 8 Plus 256GB 银色
-                  移动联通电信4G手机</a
+                  >婴儿裤子宝宝儿童外出束脚裤春秋长裤哈伦裤休闲裤百搭卫裤春装</a
                 >
               </div>
-              <p class="info-price">定金：¥100.00</p>
+              <p class="info-price">定金：89.00</p>
             </div>
           </div>
           <div class="img-item">
             <p class="tab-pic">
               <a href="#">
-                <img src="./images/1.jpg" />
+                <img src="./images/20.jpg" />
               </a>
             </p>
             <div class="tab-info">
               <div class="info-title">
                 <a href="#"
-                  >【官网价直降1100】Apple iPhone 8 Plus 256GB 银色
-                  移动联通电信4G手机</a
+                  >婴儿裤子春秋款弹力打底裤女宝宝休闲裤居家内穿百搭长裤春装</a
                 >
               </div>
-              <p class="info-price">定金：¥100.00</p>
+              <p class="info-price">定金：59.00</p>
             </div>
           </div>
         </li>

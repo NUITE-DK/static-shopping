@@ -13,10 +13,194 @@ let actions = {
 
      async getDetailInfo({ state, commit, dispatch }, skuId) {
           //商品详情请求，需要携带商品ID
-          let result = await reqDetailList(skuId);
-          if (result.code == 200) {
-               commit('GETDETAILINFO', result.data);
+          // let result = await reqDetailList(skuId);
+          let result = {
+               "code": 200,
+               "message": "成功",
+               "data": {
+                    "valuesSkuJson": "{\"5|7\":4,\"6|7\":5,\"5|8\":6,\"6|8\":7}",
+                    "price": 999,
+                    "categoryView": {
+                         "id": 61,
+                         "category1Id": 2,
+                         "category1Name": "服饰",
+                         "category2Id": 13,
+                         "category2Name": "童装",
+                         "category3Id": 61,
+                         "category3Name": "上衣"
+                    },
+                    "spuSaleAttrList": [
+                         {
+                              "id": 3,
+                              "spuId": 2,
+                              "baseSaleAttrId": 1,
+                              "saleAttrName": "颜色",
+                              "spuSaleAttrValueList": [
+                                   {
+                                        "id": 5,
+                                        "spuId": 2,
+                                        "baseSaleAttrId": 1,
+                                        "saleAttrValueName": "黑色",
+                                        "saleAttrName": "颜色",
+                                        "isChecked": "0"
+                                   },
+                                   {
+                                        "id": 6,
+                                        "spuId": 2,
+                                        "baseSaleAttrId": 1,
+                                        "saleAttrValueName": "白色",
+                                        "saleAttrName": "颜色",
+                                        "isChecked": "1"
+                                   }
+                              ]
+                         },
+                         {
+                              "id": 4,
+                              "spuId": 2,
+                              "baseSaleAttrId": 2,
+                              "saleAttrName": "版本",
+                              "spuSaleAttrValueList": [
+                                   {
+                                        "id": 7,
+                                        "spuId": 2,
+                                        "baseSaleAttrId": 2,
+                                        "saleAttrValueName": "版本一",
+                                        "saleAttrName": "版本",
+                                        "isChecked": "1"
+                                   },
+                                   {
+                                        "id": 8,
+                                        "spuId": 2,
+                                        "baseSaleAttrId": 2,
+                                        "saleAttrValueName": "版本二",
+                                        "saleAttrName": "版本",
+                                        "isChecked": "0"
+                                   }
+                              ]
+                         }
+                    ],
+                    "skuInfo": {
+                         "id": 5,
+                         "spuId": 2,
+                         "price": 129,
+                         "skuName": "婴儿暖手宝冬季男女宝宝手套加厚保暖毛绒可爱挂脖护手套",
+                         "skuDesc": "婴儿暖手宝冬季男女宝宝手套加厚保暖毛绒可爱挂脖护手套",
+                         "weight": "1.00",
+                         "tmId": 1,
+                         "category3Id": 61,
+                         "skuDefaultImg": require('../../assets/6.jpg'),
+                         "isSale": 1,
+                         "createTime": "2021-12-10 09:31:42",
+                         "skuImageList": [
+                              {
+                                   "id": 23,
+                                   "skuId": 5,
+                                   "imgName": "2b78b6fdabfd2fbe.jpg",
+                                   "imgUrl": require('../../assets/6.jpg'),
+                                   "spuImgId": 7,
+                                   "isDefault": "1"
+                              },
+                              {
+                                   "id": 24,
+                                   "skuId": 5,
+                                   "imgName": "5d5c57ab443f5fbb.jpg",
+                                   "imgUrl": require('../../assets/6.jpg'),
+                                   "spuImgId": 8,
+                                   "isDefault": "0"
+                              },
+                              {
+                                   "id": 25,
+                                   "skuId": 5,
+                                   "imgName": "cef3c55b8caad783.jpg",
+                                   "imgUrl": require('../../assets/6.jpg'),
+                                   "spuImgId": 9,
+                                   "isDefault": "0"
+                              },
+                              {
+                                   "id": 26,
+                                   "skuId": 5,
+                                   "imgName": "6eaaecc91b9ad059.jpg",
+                                   "imgUrl": require('../../assets/6.jpg'),
+                                   "spuImgId": 10,
+                                   "isDefault": "0"
+                              },
+                              {
+                                   "id": 27,
+                                   "skuId": 5,
+                                   "imgName": "b7bea7af48e935fd.jpg",
+                                   "imgUrl": require('../../assets/6.jpg'),
+                                   "spuImgId": 11,
+                                   "isDefault": "0"
+                              }
+                         ],
+                         "skuAttrValueList": [
+                              {
+                                   "id": 17,
+                                   "attrId": 106,
+                                   "valueId": 176,
+                                   "skuId": 5,
+                                   "attrName": "手机一级",
+                                   "valueName": "安卓手机"
+                              },
+                              {
+                                   "id": 18,
+                                   "attrId": 107,
+                                   "valueId": 177,
+                                   "skuId": 5,
+                                   "attrName": "二级手机",
+                                   "valueName": "小米"
+                              },
+                              {
+                                   "id": 19,
+                                   "attrId": 23,
+                                   "valueId": 14,
+                                   "skuId": 5,
+                                   "attrName": "运行内存",
+                                   "valueName": "4G"
+                              },
+                              {
+                                   "id": 20,
+                                   "attrId": 24,
+                                   "valueId": 82,
+                                   "skuId": 5,
+                                   "attrName": "机身内存",
+                                   "valueName": "128G"
+                              }
+                         ],
+                         "skuSaleAttrValueList": [
+                              {
+                                   "id": 9,
+                                   "skuId": 5,
+                                   "spuId": 2,
+                                   "saleAttrValueId": 6,
+                                   "saleAttrId": 1,
+                                   "saleAttrName": "颜色",
+                                   "saleAttrValueName": "黑色"
+                              },
+                              {
+                                   "id": 10,
+                                   "skuId": 5,
+                                   "spuId": 2,
+                                   "saleAttrValueId": 7,
+                                   "saleAttrId": 2,
+                                   "saleAttrName": "版本",
+                                   "saleAttrValueName": "4G+128G"
+                              }
+                         ]
+                    }
+               },
+               "ok": true
           }
+          console.log(result)
+          // result = {data:{
+          //           categoryView:{
+          //                category1Id:2,
+          //
+          //           }
+          //      }}
+          // if (result.code == 200) {
+               commit('GETDETAILINFO', result.data);
+          // }
      },
      //加入购物车|将来修改商品个数的地方,右侧是载荷对象【两个K,两个V】
      async addOrUpdateCart({ state, commit, dispatch }, { skuId, skuNum }) {

@@ -45,11 +45,19 @@ let actions = {
     //获取banner图的action
     async getBannerList({ commit, state, dispatch }) {
         //获取首页数据
-        let result = await reqBannerList();
-        if (result.code == 200) {
+        // let result = await reqBannerList();
+        let result = {
+            data:[
+                {id:1,imgUrl:require('../../assets/long_img.jpg')},
+                {id:2,imgUrl:require('../../assets/long_img.jpg')},
+                {id:3,imgUrl:require('../../assets/long_img.jpg')},
+                {id:4,imgUrl:require('../../assets/long_img.jpg')},
+            ]
+        }
+        // if (result.code == 200) {
             // console.log('actions发请求')
             commit("GETBANNERLIST", result.data);
-        }
+        // }
     },
     //获取Floor组件的数据
     async getFloorList({ commit, state, dispatch }) {

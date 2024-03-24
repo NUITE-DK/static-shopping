@@ -9,16 +9,16 @@
           </div>
         </li>
         <li class="banner">
-          <img src="./images/today01.png" />
+          <img src="./images/today01.jpg" />
         </li>
         <li class="banner">
-          <img src="./images/today02.png" />
+          <img src="./images/today02.jpg" />
         </li>
         <li class="banner">
-          <img src="./images/today03.png" />
+          <img src="./images/today03.jpg" />
         </li>
         <li class="banner">
-          <img src="./images/today04.png" />
+          <img src="./images/today04.jpg" />
         </li>
       </ul>
     </div>
@@ -38,7 +38,7 @@ export default {
     margin: 0 auto;
 
     .recommend {
-      height: 165px;
+      height: 230px;
       background-color: #eaeaea;
       margin: 10px 0;
       display: flex;
@@ -49,7 +49,9 @@ export default {
         color: #fff;
         font-size: 18px;
         text-align: center;
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .time {
           padding: 30px 0;
         }
@@ -68,6 +70,7 @@ export default {
         img {
           width: 100%;
           height: 100%;
+          object-fit: fill;
           transition: all 400ms;
 
           &:hover {

@@ -5,7 +5,7 @@
       <div class="top">
         <div class="container">
           <div class="loginList">
-            <p>尚品汇欢迎您！</p>
+            <p>哈尔滨爱沐儿童服装店欢迎您！</p>
             <!-- 没有登录：显示登录与注册 -->
             <p v-if="!$store.state.user.nickName">
               <span>请</span>
@@ -26,10 +26,10 @@
           <div class="typeList">
             <router-link to="/center">我的订单</router-link>
             <router-link to="/shopcart">我的购物车</router-link>
-            <a href="###">我的尚品汇</a>
-            <a href="###">尚品汇会员</a>
+            <a href="###">我的</a>
+            <a href="###">会员</a>
             <a href="###">企业采购</a>
-            <a href="###">关注尚品汇</a>
+            <a href="###">关注</a>
             <a href="###">合作招商</a>
             <a href="###">商家后台</a>
           </div>
@@ -39,7 +39,8 @@
       <div class="bottom">
         <h1 class="logoArea">
           <router-link class="logo" to="/home">
-            <img src="./images/logo.png" alt="" />
+<!--            <img src="./images/logo.png" alt="" />-->
+            <h2>哈尔滨爱沐儿童服装店</h2>
           </router-link>
         </h1>
         <div class="searchArea">
@@ -135,6 +136,7 @@ export default {
 
 <style scoped lang="less">
 .header {
+  margin-bottom: 20px;
   & > .top {
     background-color: #eaeaea;
     height: 30px;
@@ -181,6 +183,7 @@ export default {
 
     .logoArea {
       float: left;
+      margin-top: 30px;
 
       .logo {
         img {

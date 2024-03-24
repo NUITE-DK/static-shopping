@@ -8,45 +8,45 @@
       <div class="bd">
         <ul class="favourate">
           <li>
-            <img src="./images/like_02.png" alt="" />
+            <img src="./images/21.jpg" alt="" />
             <div class="like-text">
-              <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-              <h3>¥116.00</h3>
+              <p>婴儿包屁衣纯棉衣服春秋季新生儿三角哈衣男女宝宝爬服春装</p>
+              <h3>¥79.00</h3>
             </div>
           </li>
           <li>
-            <img src="./images/like_03.png" alt="" />
+            <img src="./images/22.jpg" alt="" />
             <div class="like-text">
-              <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-              <h3>¥116.00</h3>
+              <p>婴儿T恤春秋款纯棉长袖上衣男女宝宝纯色百搭打底衫内搭春装</p>
+              <h3>¥59.00</h3>
             </div>
           </li>
           <li>
-            <img src="./images/like_01.png" alt="" />
+            <img src="./images/23.jpg" alt="" />
             <div class="like-text">
-              <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-              <h3>¥116.00</h3>
+              <p>新生儿连体衣婴儿衣服纯棉和尚服春秋款宝宝哈衣爬服春装打底</p>
+              <h3>¥99.00</h3>
             </div>
           </li>
           <li>
-            <img src="./images/like_02.png" alt="" />
+            <img src="./images/24.jpg" alt="" />
             <div class="like-text">
-              <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-              <h3>¥116.00</h3>
+              <p>女宝宝上衣春秋款婴儿纯棉纱布长袖T恤洋气百搭外出春装打底</p>
+              <h3>¥109.00</h3>
             </div>
           </li>
           <li>
-            <img src="./images/like_03.png" alt="" />
+            <img src="./images/25.jpg" alt="" />
             <div class="like-text">
-              <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-              <h3>¥116.00</h3>
+              <p>婴儿帽子外出防风帽春秋纯棉纱布公主帽女新生儿宝宝洋气护耳帽</p>
+              <h3>¥59.00</h3>
             </div>
           </li>
           <li>
-            <img src="./images/like_01.png" alt="" />
+            <img src="./images/26.jpg" alt="" />
             <div class="like-text">
-              <p>阳光美包新款单肩包女包时尚子母包四件套女</p>
-              <h3>¥116.00</h3>
+              <p>婴儿连体衣春秋款纯棉纱布女宝宝长袖哈衣爬服洋气外出服春装</p>
+              <h3>¥149.00</h3>
             </div>
           </li>
         </ul>
@@ -64,6 +64,7 @@ export default {
 <style scoped lang="less">
   .like {
         margin-top: 15px;
+        margin-bottom: 25px;
 
         .py-container {
             width: 1200px;
